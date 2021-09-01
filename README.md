@@ -12,6 +12,8 @@
     - People are able to check the price for a kitty
     - People are able to pay the price to buy kitty
 
+Solution: https://github.com/SubstrateDevAcademy/exercise-5/commit/a0334ff9fcc8994179d9447748de846e8d608348
+
 ---
 
 # Substrate Node Template
