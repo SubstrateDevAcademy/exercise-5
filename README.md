@@ -1,3 +1,19 @@
+# Substrate Runtime Developer Academy
+
+# Exercise Five
+
+1. Fork & clone this project
+2. Add new tests for `fn transfer`
+    - [./pallets/kitties/src/tests.rs](./pallets/kitties/src/tests.rs#L123)
+    - Make sure you have covered edge cases
+3. Design kitty exchange feature
+4. Requirements:
+    - A kitty may have a price set by owner
+    - People are able to check the price for a kitty
+    - People are able to pay the price to buy kitty
+
+---
+
 # Substrate Node Template
 
 [![Try on playground](https://img.shields.io/badge/Playground-Node_Template-brightgreen?logo=Parity%20Substrate)](https://playground.substrate.dev/?deploy=node-template)

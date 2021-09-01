@@ -119,3 +119,5 @@ fn can_breed() {
 		System::assert_last_event(Event::KittiesModule(crate::Event::<Test>::KittyBred(100u64, 2u32, kitty)));
 	});
 }
+
+// TODO: add new test cases for `fn transfer`. Make sure you have covered edge cases
