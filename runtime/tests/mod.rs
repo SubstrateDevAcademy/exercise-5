@@ -98,9 +98,9 @@ fn test_compact() {
 
 	// 16383
 	assert_encode(Compact((1u64 << 14) - 1), &[0b11111101, 0b11111111]);
-	assert_encode(Compact((1u64 << 14) - 1), &[0b11111101, 0b11111111]);
+	assert_encode(Compact((1u128 << 14) - 1), &[0b11111101, 0b11111111]);
 
     // 16384
     assert_encode(Compact(1u64 << 14), &[0b00000010, 0b00000000, 0b00000001, 0b00000000]);
-    assert_encode(Compact(1u64 << 14), &[0b00000010, 0b00000000, 0b00000001, 0b00000000]);
+    assert_encode(Compact(1u128 << 14), &[0b00000010, 0b00000000, 0b00000001, 0b00000000]);
 }
